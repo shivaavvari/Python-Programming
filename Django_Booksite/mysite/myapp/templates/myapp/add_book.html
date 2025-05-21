@@ -1,0 +1,13 @@
+
+
+<form method="POST" enctype="multipart/form-data">
+   {% csrf_token %} 
+    <input type="text" name="name" id="name" placeholder="Enter name of the Book">
+    <input type="text" name="desc" id="desc" placeholder="Enter Description of the Book">
+    <input type="text" name="price" id="price" placeholder="Enter Price of the Book">
+    <input type="file" name="book_image" id="book_image" placeholder="Enter Image of the Book">
+
+    <input type="submit" >
+
+
+</form>
